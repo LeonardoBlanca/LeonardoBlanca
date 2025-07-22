@@ -1,11 +1,11 @@
 ## About Me
 
-Hi, I'm Leonardo, a 35-year-old developer based in Brazil.
+Hi, I'm Leonardo, a 36-year-old developer based in Brazil.
 
 ## Skills
 
-* **Languages:** TypeScript, JavaScript (NodeJS/ReactJS), HTML5, CSS3, C# (.NET Core)
-* **Interests:** Data Science, DevOps, SAAS
+* **Languages:** TypeScript, JavaScript (NodeJS/ReactJS), HTML5, CSS3, C# (.NET Core), Go, PHP
+* **Interests:** DevOps, Web3
 
 
 ## Let's Connect!
