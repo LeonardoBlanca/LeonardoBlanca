@@ -1,25 +1,22 @@
 # Olá, eu sou o Leonardo 👋
 
-**Desenvolvedor Backend — Node.js/TypeScript · Integrações e automação em produção**
+**Desenvolvedor Backend — Node.js/TypeScript**
 
-Trabalho com sistemas que precisam rodar sem supervisão contra dependências externas instáveis. Na prática: integrações que não podem falhar em silêncio, filas que precisam reprocessar sozinhas e coleta de dados em portais que mudam sem aviso.
+Trabalho com integrações e automações que precisam rodar em produção sem supervisão, contra sistemas de terceiros instáveis. Na prática, a maior parte do meu tempo vai para o que acontece quando algo falha: retry, reprocessamento, idempotência e observabilidade.
 
 📍 Franca, SP — Brasil
 
 ---
 
-## O que eu faço hoje
+## Com o que eu trabalho
 
-**Desenvolvedor Backend Pleno @ Snapfi (AMEE)** · desde jan/2026
-Integrações em produção com **23 concessionárias de energia**, sustentando **+10 mil solicitações/mês**. NestJS e TypeScript sobre GCP (Cloud Run, Pub/Sub, BigQuery), infra em Terraform.
+**Integrações em escala** — pipelines que sustentam dezenas de milhares de operações mensais contra portais e APIs de terceiros, com extração, normalização e persistência de dados.
 
-Alguns problemas que resolvi por aqui:
-- Mecanismo de filas **sem broker dedicado** — fila persistida em banco, máquina de estados, retry agendado e um processor por integração via injeção de dependência. O trade-off: enfileiramento na mesma transação do domínio (sem dupla escrita), ao custo de polling em vez de push.
-- Resiliência contra **Imperva, Akamai e reCAPTCHA Enterprise** — pool de proxies SOCKS5, retry por zonas e tratamento determinístico de falhas.
-- Conciliação de unidades consumidoras entre bases divergentes.
+**Filas e processamento assíncrono** — já implementei fila persistida em banco, com máquina de estados, retry agendado e um processor por integração registrado via injeção de dependência. O trade-off: enfileiramento na mesma transação do domínio, eliminando dupla escrita, ao custo de polling em vez de push.
 
-**Desenvolvedor RPA @ Cia do Crédito** · desde abr/2025
-Pipeline de ETL com Playwright sobre portais bancários. Ajudei a evoluir um projeto que levou a taxa de sucesso na importação de propostas de **27% para mais de 87%**. Mantenho uma frota de 21 serviços RPA containerizados.
+**Automação resiliente** — coleta de dados em portais protegidos por WAF e desafios anti-bot (Imperva, Akamai, reCAPTCHA), com pool de proxies, retry por zonas e tratamento determinístico de falhas. Playwright em TypeScript.
+
+**Cloud e infraestrutura** — arquitetura event-driven em GCP (Cloud Run, Pub/Sub, BigQuery), serviços containerizados e infraestrutura versionada em Terraform.
 
 ---
 
@@ -28,7 +25,7 @@ Pipeline de ETL com Playwright sobre portais bancários. Ajudei a evoluir um pro
 **Linguagens** · TypeScript · JavaScript · C# · Go
 **Backend** · Node.js · NestJS · Express · ASP.NET Core · APIs REST
 **Automação** · Playwright · Puppeteer
-**Cloud & Infra** · GCP (Cloud Run, Pub/Sub, BigQuery) · Docker · Terraform · Linux
+**Cloud & Infra** · GCP · Docker · Terraform · Linux
 **Dados** · PostgreSQL · SQL Server · MongoDB · MySQL · Prisma · EF Core
 **Práticas** · SOLID · Clean Code · testes automatizados · GitHub Actions
 
